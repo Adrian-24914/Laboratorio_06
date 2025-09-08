@@ -1,0 +1,16 @@
+mode,rep,time_s
+deadlock,1,.002550184
+deadlock,2,.004621192
+deadlock,3,.005463031
+deadlock,4,.010038063
+deadlock,5,.010898836
+orden,1,.011235955
+orden,2,.009375008
+orden,3,.014823186
+orden,4,.008969936
+orden,5,.008790063
+trylock,1,.009411341
+trylock,2,.008194738
+trylock,3,.013726310
+trylock,4,.011240976
+trylock,5,.016179975

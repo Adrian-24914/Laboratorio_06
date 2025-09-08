@@ -1,7 +1,8 @@
 #!/bin/bash
 # Práctica 2: buffer circular productor/consumidor
 
-OUT=../data/p2_ring.csv
+OUT=data/p2_ring.csv
+mkdir -p data
 NREP=5
 THREADS_LIST="2 4"
 WORK=100000

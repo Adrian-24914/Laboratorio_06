@@ -1,7 +1,8 @@
 #!/bin/bash
 # Práctica 5: pipeline de 3 etapas
 
-OUT=../data/p5_pipeline.csv
+OUT=data/p5_pipeline.csv
+mkdir -p data
 NREP=5
 TICKS=1000
 

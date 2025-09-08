@@ -1,7 +1,8 @@
 #!/bin/bash
 # Práctica 3: mapa lectores/escritores
 
-OUT=../data/p3_rw.csv
+OUT=data/p3_rw.csv
+mkdir -p data
 NREP=5
 THREADS_LIST="4 8"
 RATIOS="90 70 50"   # porcentaje de lecturas

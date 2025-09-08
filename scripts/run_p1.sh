@@ -1,7 +1,9 @@
 #!/bin/bash
 # Práctica 1: contador global (naive, mutex, sharded, atomic)
 
-OUT=../data/p1_counter.csv
+OUT=data/p1_counter.csv
+mkdir -p data
+
 NREP=5
 THREADS_LIST="2 4 8"
 ITERS=1000000

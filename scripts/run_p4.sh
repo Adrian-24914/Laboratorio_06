@@ -1,7 +1,8 @@
 #!/bin/bash
 # Práctica 4: deadlock y correcciones
 
-OUT=../data/p4_deadlock.csv
+OUT=data/p4_deadlock.csv
+mkdir -p data
 NREP=5
 MODES="deadlock orden trylock"
 
